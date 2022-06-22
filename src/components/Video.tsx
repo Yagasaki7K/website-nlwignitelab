@@ -1,8 +1,10 @@
-function Video() {
+import VideoDetails from '../components/VideoDetails'
+
+const Video = () => {
     return (
-        <header>
-            <h1>Nlwignite Lab</h1>
-        </header>
+        <VideoDetails>
+            <span>Video Player</span>
+        </VideoDetails>
     )
 }
 

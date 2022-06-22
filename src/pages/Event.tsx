@@ -1,8 +1,17 @@
 import Header from "../components/Header"
+import Sidebar from "../components/Sidebar"
+import Video from "../components/Video"
+import EventDetails from "../components/EventDetails"
 
 const Event = () => {
     return (
-        <Header />
+        <EventDetails>
+            <Header />
+            <main>
+                <Video/>
+                <Sidebar />
+            </main>
+        </EventDetails>
     )
 }
 
